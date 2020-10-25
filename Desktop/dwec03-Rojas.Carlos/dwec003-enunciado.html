@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>dwec003-enunciado</title>
+  <style>
+    html {
+      line-height: 1.7;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 40em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin-top: 1.7em;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.7em;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1.7em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1.7em 0 1.7em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      font-style: italic;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      background-color: #f0f0f0;
+      font-size: 85%;
+      margin: 0;
+      padding: .2em .4em;
+    }
+    pre {
+      line-height: 1.5em;
+      padding: 1em;
+      background-color: #f0f0f0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin-top: 1.7em;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+    }
+    th, td {
+      border-bottom: 1px solid lightgray;
+      padding: 1em 3em 1em 0;
+    }
+    header {
+      margin-bottom: 6em;
+      text-align: center;
+    }
+    nav a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style>
+    .figure {
+      /* Take the whole window width at maximum */
+      /* Commented: does not work when printing to PDF in Chrome,
+         and also is difficult to control
+         But with this commented, the figures that are indented
+         (inserted at a nested bullet point), have less space.
+         TODO: find a robust way for them to take te body width
+         (not the viewport)
+         */
+      /*position: relative;
+      max-width: 76vw;
+      left: calc(-43vw + 50%); */
+
+      /* By default, too near of preceding text: */
+      margin-top: 0.5em;
+    }
+    .figure img {
+      /* Take the whole width at maximum
+         Note: 94%, because at 100%, Chrome cuts the
+         right border when printing to PDF */
+      max-width: 94%;
+      /* Border with padding for visually identifying the figures */
+      border: 1px solid black;
+      padding: 0.5em;
+      /* Image centered in its box */
+      display: block;
+      margin: auto;
+    }
+    /* I used to use ".caption", but recently broken and need "figcaption": */
+    .caption,figcaption {
+      /* Caption centered */
+      text-align: center;
+      /* Differentiate the captions from external text */
+      font-style: italic;
+    }
+    body {
+      /* More readable on screen than default (serif-like) */
+      font-family: Helvetica, sans-serif;
+      /* If needed, do it: */
+      word-wrap: break-word;
+      /* Default too compacted. Increase for readability: */
+      line-height: 1.6;
+      /* Default maybe too small, but if increased, it is huge when printing. */
+      /*font-size: 1.25em; */
+      /* Limit the words per line on wide high-res screens */
+      /* - Originally, I used 50em, but in current desktop, it gives 110+
+       *   characters per line... way too much for good readability
+       * - With 35em it gives in Chrome 80- characters per line.
+       */
+      max-width: 35em;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+<h1 id="dwec003-enunciado">dwec003: Enunciado</h1>
+<p>Se pide:</p>
+<ul>
+<li><p>Descárgate el tutorial <code>vscode-edicion-basica-eficiente.html</code> y el fichero <code>test.html</code> donde practicar.</p></li>
+<li><p>Edita el fichero <code>test.html</code> para “firmarlo”, añadiendo en la línea 11 tu nombre y primer apellido.</p></li>
+<li><p>Lee con atención el tutorial, y ve reproduciendo en el fichero <code>test.html</code> las demos animadas.</p></li>
+<li><p>Elige las 5 demos del tutorial que te hayan parecido más interesantes. Para cada una de ellas, graba un screencast de tí reproduciéndola, siguiendo las indicaciones siguientes para cada una de ellas:</p>
+<ul>
+<li><p>Se trata de screencast silencioso.</p></li>
+<li><p>El nombre del fichero será:</p>
+<p><code>NÚMERO.EXTENSIÓN</code></p>
+<p>donde:</p>
+<ul>
+<li><code>NÚMERO</code>: es el nº de la demo animada en el fichero del tutorial (ej. 04, 23, …).</li>
+<li><code>EXTENSIÓN</code>: es el formato, que puede ser <code>gif</code>, <code>webm</code>, <code>mp4</code> o <code>mkv</code>.</li>
+</ul></li>
+<li><p>Lo que se ve en el screencast tiene que parecerse mucho a lo que se ve en la demo correspondiente del tutorial, cuanto más parecido mejor (salvo que estará firmada abajo, porque tu nombre estará abajo del fichero <code>test.html</code> editado).</p></li>
+<li><p>El recorte muestra solo la parte necesaria del interfaz (para no distraer) y la zona interesante ocupa prácticamente todo el recuadro, con letra agrandada para que se vea bien (queda muy poco “espacio inútil”). El vídeo se tiene que poder ver cómodamente desde un móvil.</p></li>
+<li><p>Utiliza el “Screencast mode” en VScode (se resaltan los atajos y los clics del ratón). Para activarlo en VScode:</p>
+<ul>
+<li>Actívalo desde el Command Palette (<code>ctrl+shif+P</code>).</li>
+<li>Activa en la configuración el parámetro “screencastMode.onlyKeyboardShortcuts” para que solo muestre los atajos y no todo lo que escribes.</li>
+<li>Cambia en la configuración el parámetro “screencastMode.fontSize” para que tenga tamaño adecuado que permita que quepan en el recorte atajos complejos (en mis Demos está a tamaño 30).</li>
+</ul></li>
+<li><p>Intenta que que tu demo quede limpia y corta, sin muchas “dudas”, tiempos perdidos, …</p></li>
+<li><p>Graba a 15 FPS, para que no resulten demasiado grandes los ficheros.</p></li>
+</ul></li>
+<li><p>Para grabar, utiliza el software de screencast que prefieras. Algunas sugerencias si no tienes preferencias (todas son software libre):</p>
+<ul>
+<li>OBS Studio <a href="https://obsproject.com" class="uri">https://obsproject.com</a> (Win/Lin/Mac)</li>
+<li>VokoscreenNG <a href="https://github.com/vkohaupt/vokoscreenNG" class="uri">https://github.com/vkohaupt/vokoscreenNG</a> (Win/Lin)</li>
+<li>Peek <a href="https://github.com/phw/peek" class="uri">https://github.com/phw/peek</a> (solo Lin)</li>
+<li>LICEcap <a href="https://www.cockos.com/licecap" class="uri">https://www.cockos.com/licecap</a> (solo Win, solo GIF)</li>
+</ul></li>
+<li><p><strong>NOTA:</strong> Usar otro editor de texto distinto de VScode</p>
+<p>Puedes elegir intentar hacer las cosas con otro editor. En ese caso, que se parezca lo más posible. Investiga si hay manera además de que se vean los atajos de teclado y los clics como en mis demos.</p></li>
+<li><p><strong>Entrega:</strong></p>
+<ul>
+<li>Un zip con el nombre habitual que usamos para las entregas de prácticas, que contenga en la raíz los ficheros de tus demos.</li>
+<li>Tamaño maximísimo: 50MB (pero intenta quedarte en mucho menos, se valorará tamaños comedidos -mientras no se pierda visibilidad-).</li>
+</ul></li>
+</ul>
+</body>
+</html>
