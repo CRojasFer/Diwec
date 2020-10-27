@@ -1,0 +1,65 @@
+
+  
+  body {
+    background-image: url(2.jpeg);
+    background-repeat: no-repeat;
+    color: black;
+    font-family:  Impact, Charcoal, sans-serif;;
+    padding: 1em;
+    margin: 0;
+  }
+
+  h1 {
+    color: hotpink;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px groove burlywood;
+    text-align: center;
+    text-shadow: 2px 2px 2px lawngreen;
+    text-indent: 45px;
+    font-style: oblique;
+  }
+ 
+  h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    color: hotpink;
+    text-decoration: black line-through;
+  }
+
+  ul{
+
+    background-color: hotpink;
+    border:  hidden 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 25px;
+    box-shadow: lawngreen 7px 5px 15px 5px;
+  }
+
+  .job-title {
+    color: hotpink;
+    font-weight: bold;
+  }
+
+  a:link,
+  a:visited {
+    color:  #23b6d3 ;
+  }
+
+  h1:hover{
+    color: black;
+  }
+  
+  h2:hover{
+    color: lawngreen;
+  }
+
+  .job-title:hover{
+
+    color: lawngreen;
+  }
+
+  a:hover {
+    color: lawngreen;
+  }
