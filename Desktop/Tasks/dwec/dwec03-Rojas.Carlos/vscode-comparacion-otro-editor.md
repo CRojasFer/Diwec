@@ -1,0 +1,117 @@
+# VScode: comparación con otro editor
+
+Si pruebas las cosas con otro editor, rellena esta checklist y entrégala.
+
+¿Nombre del editor?: Atom.
+
+En lo siguiente, sustituye la "?" en cada caso por:
+- "=" : es exactamente igual a VScode (comportamiento y atajos).
+- "!= : se puede, pero hay algo distinto a VScode (indica qué).
+- "X" : no tiene equivalente en el otro editor.
+
+Funcionalidades:
+
+- Command Palette, con atajo.
+  - = (cntrl+shift+p)
+- Configurador de atajos, con atajo.
+  - x
+- Movimientos
+  - Mover y borrar por carácter
+    - =
+  - Mover y borrar por palabras
+    - =
+  - Otros movimientos rápidos
+    - =
+- Scroll:
+  - Vertical
+    - =
+  - Horizontal
+    - =
+  - Vertical rápido
+    - =
+- Selección con teclado.
+  - Normal (`may+movimiento`).
+    - =
+  - Dirctamente línea actual, y ampliar con mismo atajo.
+    - =
+- Selección con ratón:
+  - Expandir selección con `shift+clic`.
+    - =
+  - Selección por palabras, y arrastrando.
+    - =
+  - Selección por líneas, y arrastrando.
+    - =
+- Expandir/contraer selección por bloques de código.
+  - =
+- Mover a una línea arriba/abajo la línea actual o la selección
+- != en Atom  el alt+up/down es cntrl+up/down.
+- Cambiar indentación de línea actual o de la selección.
+  - =
+- Escribir directamente en nueva línea abajo/arriba.
+  - =
+- Borrar directamente línea actual.
+  - =
+- Duplicar arriba o abajo línea actual o la selección.
+  - != en Atom es con contrl+shift+d.
+- Búsqueda
+  - Busca mientras escribes.
+    - =
+  - Buscar directamente la palabra bajo el cursor.
+    - x
+  - Histórico de búsquedas.
+    - =
+  - Buscar directamente el texto seleccionado.
+    - X
+  - Diferenciar en búsqueda mayusc/minusc, activable con atajo.
+    - =
+  - Buscar solo palabras enteras, activable con atajo.
+    - =! directamente te da la opcion en el menu find.
+
+  - Commando para volver al último lugar donde se estuvo.
+    - =
+  - Buscar en toda una carpeta o todos los ficheros de un proyecto.
+    - X
+- RE:
+  - Buscar con RE, activable con atajo.
+    - X
+  - Permite RE comodín hambriento.
+    - X
+  - Permite RE comodín conformista.
+    - X
+  - Permite RE comodín conformista multilínea.
+    - X
+- Edición multicursor:
+  - Colocar varios cursores a mano (con clic).
+    - ?
+  - Colocar cursor arriba/abajo.
+    - ?
+  - Selección por columnas.
+    - ?
+  - Colocar multicursor en siguientes instancias de la palabra bajo el cursor.
+    - ?
+  - Colocar multicursor en todas las intancias de la palabra bajo el cursor.
+    - ?
+- Reemplazar:
+  - Reemplazar todo de golpe.
+    - ?
+  - Reemplazar confirmando uno a uno/haciendo excepciones.
+    - ?
+  - Reemplazar en toda una carpeta o todos los ficheros de un proyecto.
+    - ?
+- Plegar/desplegar código:
+  - Usando ratón.
+    - ?
+  - Con teclado, por niveles.
+    - ?
+  - Con teclado, todo de golpe.
+    - ?
+  - Seleccionar código plegado permite moverlo o copiarlo.
+    - ?
+- Explorador de fichero modo "outline".
+  - ?
+- Formatear selección, con atajo.
+  - ?
+- Formatear todo el documento, con atajo.
+  - ?
+- Comentar/descomentar la línea actual o lo seleccionado
+  - ?
